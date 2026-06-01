@@ -1,0 +1,20 @@
+{
+    "name": "amber-crt",
+    "displayName": "Amber CRT",
+    "description": "An amber CRT-inspired dark theme — warm phosphor glow on a black tube, with cool cyan break for types.",
+    "version": "1.0.0",
+    "publisher": "local",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Amber CRT",
+                "uiTheme": "vs-dark",
+                "path": "./themes/amber-crt-color-theme.json"
+            }
+        ]
+    }
+}
